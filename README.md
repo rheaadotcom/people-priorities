@@ -246,17 +246,6 @@ This project was designed and developed by **Team Knightshooks** for building an
 ### 🛡️ Team Name
 **Knightshooks**
 
----
-
-# 👩‍💻 Developed By
-
-**Riya Bhardwaj**
-
-- GitHub: https://github.com/rheaadotcom
-- LinkedIn: https://linkedin.com/in/riya-bhardwaj
-
----
-
 ## 🙌 Acknowledgements
 
 Built with ❤️ by **Team Knightshooks** to empower smarter governance through AI-driven decision making.
