@@ -1,93 +1,176 @@
-# 🏛️ People Priorities – AI Constituency Intelligence Platform
+# 🏛️ People Priorities
 
-An AI-powered constituency intelligence platform that helps government officials analyze citizen complaints, identify development priorities, monitor ongoing projects, and make data-driven decisions using AI.
+> **AI-Powered Constituency Intelligence Platform for Smart Governance**
 
-Built for smart governance with interactive analytics, AI-generated recommendations, geospatial intelligence, and citizen engagement.
+People Priorities is an intelligent constituency management platform that empowers government officials to analyze citizen complaints, identify development priorities, monitor ongoing projects, and make data-driven decisions using Artificial Intelligence.
+
+The platform combines AI, interactive analytics, geospatial intelligence, and citizen engagement to transform raw public feedback into actionable insights that improve governance, transparency, and public service delivery.
 
 ---
 
-## 🚀 Features
+# 🌟 Why People Priorities?
 
-### 👥 Citizen Complaint Portal
+Government officials often receive thousands of complaints across different departments, making it difficult to identify urgent issues and allocate resources efficiently.
+
+People Priorities addresses this challenge by leveraging Artificial Intelligence to:
+
+- 📌 Analyze complaint patterns
+- 🤖 Detect urgent and high-impact issues
+- 📊 Generate actionable development insights
+- 🗺️ Visualize complaint hotspots
+- 🏗️ Prioritize development projects
+- 💰 Assist in smarter budget planning
+- 🤝 Improve citizen engagement and transparency
+
+---
+
+# 🚀 Key Features
+
+## 👥 Citizen Complaint Portal
+
 - Multi-step complaint submission
-- Category selection
-- Image upload
+- Category-based complaint registration
+- Image upload support
 - Voice complaint upload
-- Interactive location picker
+- Interactive map-based location picker
 - Review & confirmation screen
 - AI-powered complaint analysis
 
-### 📊 Command Center Dashboard
+---
+
+## 📊 Command Center Dashboard
+
 - Real-time constituency analytics
 - KPI cards
-- Complaint trends
+- Complaint trend analysis
 - Interactive charts
 - Heatmaps
-- AI insights
-- Copilot panel
+- Department-wise statistics
+- AI-powered insights
+- AI Copilot panel
 
-### 🗺️ Intelligence Map
+---
+
+## 🗺️ Intelligence Map
+
 - Interactive constituency map
-- Complaint hotspots
+- Complaint hotspot visualization
 - Category-based filters
-- Search functionality
-- Heatmap visualization
+- Smart search
+- Heatmap analytics
 - Priority indicators
 
-### 🤖 AI Recommendations
-- AI-generated development recommendations
-- Priority scoring
-- Confidence scores
+---
+
+## 🤖 AI Recommendation Engine
+
+Generate AI-powered recommendations including:
+
+- Development priorities
+- Severity prediction
 - Budget estimation
 - Government scheme alignment
-- Detailed reasoning
+- Confidence scores
+- AI reasoning
+- Suggested action plans
 
-### 🏗️ Projects & Monitoring
-- Development project tracking
-- Progress monitoring
+---
+
+## 🏗️ Project Monitoring
+
+Track ongoing development projects through:
+
+- Progress tracking
 - Budget utilization
-- Milestone timelines
 - Department ownership
+- Timeline monitoring
+- Milestone management
 - AI priority scoring
+
+---
+
+# 🧠 AI Capabilities
+
+People Priorities integrates Google Gemini AI to provide intelligent decision support.
+
+### AI Features
+
+- Complaint Summarization
+- Smart Complaint Categorization
+- Priority Detection
+- Severity Prediction
+- Development Recommendation Generation
+- Budget Estimation
+- Government Scheme Mapping
+- Constituency Trend Analysis
+- Decision Support Intelligence
 
 ---
 
 # 🛠 Tech Stack
 
-## Frontend
-- Next.js 16
-- React 19
-- TypeScript
-- Tailwind CSS
-- React Query
-- React Hook Form
-- Zod
-- Framer Motion
-- Recharts
-- React Leaflet
+| Frontend | Backend | AI | Database |
+|----------|----------|-----|-----------|
+| Next.js 16 | FastAPI | Google Gemini AI | MongoDB |
+| React 19 | Python | Prompt Engineering | Motor |
+| TypeScript | Pydantic | AI Recommendations | |
+| Tailwind CSS | REST APIs | | |
+| React Query | | | |
+| React Hook Form | | | |
+| Zod | | | |
+| Recharts | | | |
+| React Leaflet | | | |
+| Framer Motion | | | |
 
-## Backend
-- FastAPI
-- MongoDB
-- Motor
-- Pydantic
-- Google Gemini AI
-- Python
+---
+
+# 🏗 System Architecture
+
+```text
+                 Citizen
+                    │
+                    ▼
+        Complaint Submission Portal
+                    │
+                    ▼
+              FastAPI Backend
+                    │
+      ┌─────────────┴─────────────┐
+      ▼                           ▼
+ Google Gemini AI           MongoDB Database
+      │                           │
+      └─────────────┬─────────────┘
+                    ▼
+         Analytics & Intelligence
+                    │
+                    ▼
+        Command Center Dashboard
+                    │
+                    ▼
+      AI Recommendations & Maps
+```
 
 ---
 
 # 📂 Project Structure
 
-```
-people-priority/
+```text
+people-priorities/
 │
 ├── frontend/
 │   ├── src/
 │   ├── public/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── services/
 │   └── package.json
 │
 ├── backend/
 │   ├── app/
+│   ├── routes/
+│   ├── models/
+│   ├── services/
 │   ├── uploads/
 │   ├── requirements.txt
 │   └── run.py
@@ -104,12 +187,12 @@ people-priority/
 ```bash
 git clone https://github.com/rheaadotcom/people-priorities.git
 
-cd people-priority
+cd people-priorities
 ```
 
 ---
 
-# 🖥️ Frontend Setup
+# 💻 Frontend Setup
 
 ```bash
 cd frontend
@@ -119,7 +202,7 @@ npm install
 npm run dev
 ```
 
-Frontend runs at
+Frontend runs at:
 
 ```
 http://localhost:3000
@@ -137,15 +220,15 @@ cd backend
 python -m venv venv
 ```
 
-Activate
+### Activate Environment
 
-### Windows
+**Windows**
 
 ```bash
 venv\Scripts\activate
 ```
 
-### Linux / macOS
+**Linux/macOS**
 
 ```bash
 source venv/bin/activate
@@ -157,7 +240,7 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Create `.env`
+Create a `.env` file
 
 ```env
 MONGODB_URL=your_mongodb_url
@@ -167,19 +250,19 @@ DATABASE_NAME=people_priorities
 GEMINI_API_KEY=your_api_key
 ```
 
-Run
+Run the backend
 
 ```bash
 python run.py
 ```
 
-Backend
+Backend:
 
 ```
 http://localhost:8000
 ```
 
-Swagger Docs
+Swagger Documentation:
 
 ```
 http://localhost:8000/docs
@@ -187,76 +270,126 @@ http://localhost:8000/docs
 
 ---
 
+# 🔌 API Modules
+
+- Citizen Complaint Management
+- AI Complaint Analysis
+- Dashboard Analytics
+- Recommendation Engine
+- Intelligence Maps
+- Development Project Monitoring
+
+---
+
+# 📸 Screenshots
+
+- 🏠 Landing Page
+- 👥 Citizen Complaint Portal
+- 📊 Command Center Dashboard
+- 🗺️ Intelligence Map
+- 🤖 AI Recommendation Panel
+- 🏗️ Project Monitoring
+- 📈 Analytics Dashboard
+
+---
+
 # 🌍 Deployment
 
 ## Frontend
-
-Deployed using
 
 - Vercel
 
 ## Backend
 
-Deployed using
-
 - Render
 
 ---
 
-# 📸 Screens
+# 🔒 Security
 
-- 🏠 Landing Page
-- 📊 Command Center Dashboard
-- 👥 Citizen Portal
-- 🗺️ Intelligence Map
-- 🤖 AI Recommendations
-- 🏗️ Projects & Monitoring
-
----
-
-# ✨ AI Capabilities
-
-- Complaint summarization
-- Priority detection
-- AI recommendations
-- Constituency insights
-- Development planning
-- Smart categorization
+- Environment Variable Protection
+- Secure API Architecture
+- Type-safe Validation using Zod & Pydantic
+- Secure File Uploads
+- MongoDB Injection Protection
+- Error Handling & Validation
 
 ---
 
-# 📈 Future Improvements
+# 🚀 Future Roadmap
 
-- Authentication
-- Role-based dashboards
-- Live notifications
-- AI chatbot
-- Multi-language support
-- Offline complaint submission
-- Predictive analytics
+- 🔐 Authentication & Authorization
+- 👥 Role-Based Dashboards
+- 📱 Mobile Application
+- 🌐 Multi-language Support
+- 🔔 Real-time Notifications
+- 🤖 AI Chatbot Assistant
+- 📈 Predictive Analytics
+- 📊 Constituency Performance Reports
+- ☁️ Cloud Storage Integration
+- 📡 Offline Complaint Submission
 
 ---
+
+# 🤝 Contributing
+
+Contributions are always welcome!
+
+1. Fork the repository
+2. Create a new feature branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push your branch
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
 
 ---
 
 # 👥 Team
 
-This project was designed and developed by **Team Knightshooks** for building an AI-powered constituency intelligence platform.
+## 🛡️ Team Knightshooks
 
-### 🛡️ Team Name
-**Knightshooks**
-
-## 🙌 Acknowledgements
-
-Built with ❤️ by **Team Knightshooks** to empower smarter governance through AI-driven decision making.
+Designed and developed by **Team Knightshooks** for building an AI-powered constituency intelligence platform that enables smarter governance through Artificial Intelligence, geospatial analytics, and data-driven decision-making.
 
 ---
 
-## ⭐ Support
+# 🙏 Acknowledgements
 
-If you found this project helpful, please consider giving this repository a **⭐ Star** on GitHub. It helps support our work and encourages future development!
+Special thanks to everyone who supported and contributed to this project.
 
+Built with ❤️ by **Team Knightshooks** to empower governments with AI-driven insights and improve citizen engagement.
 
-## ⭐ If you like this project
+---
 
-Give this repository a ⭐ on GitHub!
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+# ⭐ Support
+
+If you found this project useful, please consider giving it a **⭐ Star** on GitHub.
+
+Your support motivates us to continue building innovative AI-powered civic technology solutions.
+
+---
+
+## 💙 Thank You for Visiting!
+
+**People Priorities** is more than just a project—it's a step toward smarter governance, transparent administration, and AI-driven public service.
+
+⭐ **Don't forget to Star the repository if you liked it!**
