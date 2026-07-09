@@ -335,42 +335,59 @@ http://localhost:8000/docs
 
 Contributions are always welcome!
 
-1. Fork the repository
-2. Create a new feature branch
+1. Fork the repository.
+2. Create a feature branch.
 
 ```bash
 git checkout -b feature-name
 ```
 
-3. Commit your changes
+3. Commit your changes.
 
 ```bash
 git commit -m "Added new feature"
 ```
 
-4. Push your branch
+4. Push your branch.
 
 ```bash
 git push origin feature-name
 ```
 
-5. Open a Pull Request
+5. Open a Pull Request.
 
 ---
 
-# 👥 Team
+# 🚀 Future Enhancements
+
+We plan to add the following features in future releases:
+
+- 🔐 User Authentication & Authorization
+- 👥 Role-Based Dashboards (Admin, Citizen, Officer)
+- 🔔 Real-time Notifications
+- 🤖 AI-powered Chat Assistant
+- 🌐 Multi-language Support
+- 📱 Offline Complaint Submission
+- 📊 Predictive Analytics & Smart Reports
+- 📍 GIS-based Issue Tracking
+- 📈 Advanced Data Visualization
+- ☁️ Cloud Deployment & Scalability
+
+---
+
+# 👨‍💻 Team
 
 ## 🛡️ Team Knightshooks
 
-Designed and developed by **Team Knightshooks** for building an AI-powered constituency intelligence platform that enables smarter governance through Artificial Intelligence, geospatial analytics, and data-driven decision-making.
+This project was designed and developed by **Team Knightshooks** with the vision of building an AI-powered Constituency Intelligence Platform that enables smarter governance, geospatial analytics, and citizen engagement.
 
 ---
 
 # 🙏 Acknowledgements
 
-Special thanks to everyone who supported and contributed to this project.
+Special thanks to everyone who supported and inspired this project.
 
-Built with ❤️ by **Team Knightshooks** to empower governments with AI-driven insights and improve citizen engagement.
+Built with ❤️ by **Team Knightshooks** to empower data-driven governance through Artificial Intelligence.
 
 ---
 
@@ -382,14 +399,18 @@ This project is licensed under the **MIT License**.
 
 # ⭐ Support
 
-If you found this project useful, please consider giving it a **⭐ Star** on GitHub.
+If you found this project useful, please consider giving this repository a **⭐ Star** on GitHub.
 
-Your support motivates us to continue building innovative AI-powered civic technology solutions.
+Your support motivates us to continue improving and adding new features.
 
 ---
 
-## 💙 Thank You for Visiting!
+## 💙 Show Your Support
 
-**People Priorities** is more than just a project—it's a step toward smarter governance, transparent administration, and AI-driven public service.
+⭐ **Star this repository** if you like the project.
 
-⭐ **Don't forget to Star the repository if you liked it!**
+🍴 **Fork it** to contribute or build upon it.
+
+📝 **Open an Issue** if you find bugs or have suggestions.
+
+🚀 **Contributions are always welcome!**
