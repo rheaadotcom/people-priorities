@@ -225,38 +225,55 @@ Deployed using
 
 ---
 
-# 📈 Future Improvements
+# 🚀 Future Enhancements
 
-- Authentication
-- Role-based dashboards
-- Live notifications
-- AI chatbot
-- Multi-language support
-- Offline complaint submission
-- Predictive analytics
+We plan to add the following features in future releases:
+
+- 🔐 User Authentication & Authorization
+- 👥 Role-Based Dashboards (Admin, Citizen, Officer)
+- 🔔 Real-time Notifications
+- 🤖 AI-powered Chat Assistant
+- 🌐 Multi-language Support
+- 📱 Offline Complaint Submission
+- 📊 Predictive Analytics & Smart Reports
+- 📍 GIS-based Issue Tracking
+- 📈 Advanced Data Visualization
+- ☁️ Cloud Deployment & Scalability
 
 ---
 
----
+# 👨‍💻 Team
 
-# 👥 Team
-
-This project was designed and developed by **Team Knightshooks** for building an AI-powered constituency intelligence platform.
+This project was designed and developed by **Team Knightshooks** with the vision of building an AI-powered Constituency Intelligence Platform that enables smarter governance and citizen engagement.
 
 ### 🛡️ Team Name
-**Knightshooks**
+
+**Team Knightshooks**
+
+---
 
 ## 🙌 Acknowledgements
 
-Built with ❤️ by **Team Knightshooks** to empower smarter governance through AI-driven decision making.
+Special thanks to everyone who supported and inspired this project.
+
+Built with ❤️ by **Team Knightshooks** to empower data-driven governance through Artificial Intelligence.
 
 ---
 
 ## ⭐ Support
 
-If you found this project helpful, please consider giving this repository a **⭐ Star** on GitHub. It helps support our work and encourages future development!
+If you found this project useful, please consider giving this repository a **⭐ Star** on GitHub.
 
+Your support motivates us to continue improving and adding new features.
 
-## ⭐ If you like this project
+---
 
-Give this repository a ⭐ on GitHub!
+## 💙 Show Your Support
+
+⭐ **Star this repository** if you like the project.
+
+🍴 **Fork it** to contribute or build upon it.
+
+📝 **Open an Issue** if you find bugs or have suggestions.
+
+🚀 **Contributions are always welcome!**
