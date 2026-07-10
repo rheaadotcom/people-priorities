@@ -37,22 +37,17 @@ export default function HeatmapComponent() {
   if (isLoading) {
     return (
       <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 h-64 flex items-center justify-center">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary-600"></div>
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#4F46E5]"></div>
       </div>
     );
   }
 
-  if (error) {
-    return (
-      <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 h-64 flex items-center justify-center text-red-500">
-        Failed to load heatmap data.
-      </div>
-    );
-  }
+  // Fallback to empty array if API fails
+  const dataToUse = heatmapData || [];
 
   const defaultPosition: [number, number] = [28.6139, 77.2090]; // Default to New Delhi if no data
-  const center = heatmapData && heatmapData.length > 0
-    ? [heatmapData[0].latitude, heatmapData[0].longitude] as [number, number]
+  const center = dataToUse && dataToUse.length > 0
+    ? [dataToUse[0].latitude, dataToUse[0].longitude] as [number, number]
     : defaultPosition;
 
   return (
@@ -63,7 +58,7 @@ export default function HeatmapComponent() {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <MarkerClusterGroup chunkedLoading>
-          {heatmapData?.map((point, index) => (
+          {dataToUse?.map((point, index) => (
             <Marker key={index} position={[point.latitude, point.longitude]}>
               <Popup>
                 <div>
