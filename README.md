@@ -268,31 +268,6 @@ Swagger Documentation:
 http://localhost:8000/docs
 ```
 
----
-
-# 🔌 API Modules
-
-- Citizen Complaint Management
-- AI Complaint Analysis
-- Dashboard Analytics
-- Recommendation Engine
-- Intelligence Maps
-- Development Project Monitoring
-
----
-
-# 📸 Screenshots
-
-- 🏠 Landing Page
-- 👥 Citizen Complaint Portal
-- 📊 Command Center Dashboard
-- 🗺️ Intelligence Map
-- 🤖 AI Recommendation Panel
-- 🏗️ Project Monitoring
-- 📈 Analytics Dashboard
-
----
-
 # 🌍 Deployment
 
 ## Frontend
