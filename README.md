@@ -17,10 +17,10 @@ People Priorities transforms citizen complaints into **actionable insights for s
 
 | Frontend     | Backend   | AI                 | Database |
 | ------------ | --------- | ------------------ | -------- |
-| Next.js 16   | FastAPI   | Google Gemini      | MongoDB  |
-| React 19     | Python    | Prompt Engineering | Motor    |
-| TypeScript   | Pydantic  | AI Recommendations |          |
-| Tailwind CSS | REST APIs |                    |          |
+| Next.js 16   | FastAPI   | Groq API           | MongoDB  |
+| React 19     | Python    | LLM Integration    | Motor    |
+| TypeScript   | Pydantic  | Prompt Engineering |          |
+| Tailwind CSS | REST APIs | AI Recommendations |          |
 
 **Other:** React Query · React Hook Form · Zod · Recharts · React Leaflet · Framer Motion
 
@@ -34,7 +34,7 @@ Complaint Portal
 FastAPI Backend
    ↓
 ┌──────────────┬──────────────┐
-│  Gemini AI   │   MongoDB    │
+│   Groq API   │   MongoDB    │
 └──────────────┴──────────────┘
           ↓
 Analytics & Intelligence
@@ -45,6 +45,8 @@ Maps & Recommendations
 ```
 
 ## 🚀 Getting Started
+
+### Clone
 
 ```bash
 git clone https://github.com/rheaadotcom/people-priorities.git
@@ -59,6 +61,8 @@ npm install
 npm run dev
 ```
 
+Frontend: `http://localhost:3000`
+
 ### Backend
 
 ```bash
@@ -69,13 +73,21 @@ pip install -r requirements.txt
 python run.py
 ```
 
+Backend: `http://localhost:8000`
+
+API Docs: `http://localhost:8000/docs`
+
+### Environment Variables
+
 Create `backend/.env`:
 
 ```env
 MONGODB_URL=your_mongodb_url
 DATABASE_NAME=people_priorities
-GEMINI_API_KEY=your_gemini_api_key
+GROQ_API_KEY=your_groq_api_key
 ```
+
+> Never commit API keys or `.env` files to GitHub.
 
 ## 📌 Roadmap
 
